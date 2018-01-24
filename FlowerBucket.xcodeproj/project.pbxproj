@@ -1,0 +1,766 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79BA586D477F4877DB827794 /* Pods_FlowerBucket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C98753527E1933CC9CC8D45 /* Pods_FlowerBucket.framework */; };
+		B613E7B820188DAC005D6DCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B613E7B720188DAC005D6DCD /* AppDelegate.swift */; };
+		B613E7BA20188DAC005D6DCD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B613E7B920188DAC005D6DCD /* ViewController.swift */; };
+		B613E7BD20188DAC005D6DCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B613E7BB20188DAC005D6DCD /* Main.storyboard */; };
+		B613E7BF20188DAC005D6DCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B613E7BE20188DAC005D6DCD /* Assets.xcassets */; };
+		B613E7C220188DAC005D6DCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B613E7C020188DAC005D6DCD /* LaunchScreen.storyboard */; };
+		B613E7CD20188DAC005D6DCD /* FlowerBucketTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B613E7CC20188DAC005D6DCD /* FlowerBucketTests.swift */; };
+		B613E7D820188DAC005D6DCD /* FlowerBucketUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B613E7D720188DAC005D6DCD /* FlowerBucketUITests.swift */; };
+		C207F3EDDD8A206C92A496CB /* Pods_FlowerBucketUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 184CCFB1614089F7F1CA57CE /* Pods_FlowerBucketUITests.framework */; };
+		C6F53F6D6E041338139B91E9 /* Pods_FlowerBucketTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6F60FA5C564379FBE04AB15 /* Pods_FlowerBucketTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B613E7C920188DAC005D6DCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B613E7AC20188DAB005D6DCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B613E7B320188DAC005D6DCD;
+			remoteInfo = FlowerBucket;
+		};
+		B613E7D420188DAC005D6DCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B613E7AC20188DAB005D6DCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B613E7B320188DAC005D6DCD;
+			remoteInfo = FlowerBucket;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C98753527E1933CC9CC8D45 /* Pods_FlowerBucket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlowerBucket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		184CCFB1614089F7F1CA57CE /* Pods_FlowerBucketUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlowerBucketUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		313FA8DFD2D426305F533145 /* Pods-FlowerBucket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlowerBucket.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlowerBucket/Pods-FlowerBucket.release.xcconfig"; sourceTree = "<group>"; };
+		3533AA2BBAE717FF498AAFCE /* Pods-FlowerBucketTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlowerBucketTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlowerBucketTests/Pods-FlowerBucketTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3CA3F4D7E572A08124C441FD /* Pods-FlowerBucketUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlowerBucketUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlowerBucketUITests/Pods-FlowerBucketUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8032BD3C992A88EEA417EBB9 /* Pods-FlowerBucket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlowerBucket.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlowerBucket/Pods-FlowerBucket.debug.xcconfig"; sourceTree = "<group>"; };
+		8E6E053BBE849C950C1C7D46 /* Pods-FlowerBucketTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlowerBucketTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlowerBucketTests/Pods-FlowerBucketTests.release.xcconfig"; sourceTree = "<group>"; };
+		B613E7B420188DAC005D6DCD /* FlowerBucket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlowerBucket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B613E7B720188DAC005D6DCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B613E7B920188DAC005D6DCD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B613E7BC20188DAC005D6DCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B613E7BE20188DAC005D6DCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B613E7C120188DAC005D6DCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B613E7C320188DAC005D6DCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B613E7C820188DAC005D6DCD /* FlowerBucketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlowerBucketTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B613E7CC20188DAC005D6DCD /* FlowerBucketTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerBucketTests.swift; sourceTree = "<group>"; };
+		B613E7CE20188DAC005D6DCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B613E7D320188DAC005D6DCD /* FlowerBucketUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlowerBucketUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B613E7D720188DAC005D6DCD /* FlowerBucketUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerBucketUITests.swift; sourceTree = "<group>"; };
+		B613E7D920188DAC005D6DCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4E7BE06AB25475AD41715A6 /* Pods-FlowerBucketUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlowerBucketUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlowerBucketUITests/Pods-FlowerBucketUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C6F60FA5C564379FBE04AB15 /* Pods_FlowerBucketTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlowerBucketTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B613E7B120188DAC005D6DCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79BA586D477F4877DB827794 /* Pods_FlowerBucket.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B613E7C520188DAC005D6DCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6F53F6D6E041338139B91E9 /* Pods_FlowerBucketTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B613E7D020188DAC005D6DCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C207F3EDDD8A206C92A496CB /* Pods_FlowerBucketUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8214A6C026C1D4F1896AA8EB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8032BD3C992A88EEA417EBB9 /* Pods-FlowerBucket.debug.xcconfig */,
+				313FA8DFD2D426305F533145 /* Pods-FlowerBucket.release.xcconfig */,
+				3533AA2BBAE717FF498AAFCE /* Pods-FlowerBucketTests.debug.xcconfig */,
+				8E6E053BBE849C950C1C7D46 /* Pods-FlowerBucketTests.release.xcconfig */,
+				3CA3F4D7E572A08124C441FD /* Pods-FlowerBucketUITests.debug.xcconfig */,
+				C4E7BE06AB25475AD41715A6 /* Pods-FlowerBucketUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		91CB82C0C8461A9B99A1E8C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C98753527E1933CC9CC8D45 /* Pods_FlowerBucket.framework */,
+				C6F60FA5C564379FBE04AB15 /* Pods_FlowerBucketTests.framework */,
+				184CCFB1614089F7F1CA57CE /* Pods_FlowerBucketUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B613E7AB20188DAB005D6DCD = {
+			isa = PBXGroup;
+			children = (
+				B613E7B620188DAC005D6DCD /* FlowerBucket */,
+				B613E7CB20188DAC005D6DCD /* FlowerBucketTests */,
+				B613E7D620188DAC005D6DCD /* FlowerBucketUITests */,
+				B613E7B520188DAC005D6DCD /* Products */,
+				8214A6C026C1D4F1896AA8EB /* Pods */,
+				91CB82C0C8461A9B99A1E8C7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B613E7B520188DAC005D6DCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B613E7B420188DAC005D6DCD /* FlowerBucket.app */,
+				B613E7C820188DAC005D6DCD /* FlowerBucketTests.xctest */,
+				B613E7D320188DAC005D6DCD /* FlowerBucketUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B613E7B620188DAC005D6DCD /* FlowerBucket */ = {
+			isa = PBXGroup;
+			children = (
+				B613E7B720188DAC005D6DCD /* AppDelegate.swift */,
+				B613E7B920188DAC005D6DCD /* ViewController.swift */,
+				B613E7BB20188DAC005D6DCD /* Main.storyboard */,
+				B613E7BE20188DAC005D6DCD /* Assets.xcassets */,
+				B613E7C020188DAC005D6DCD /* LaunchScreen.storyboard */,
+				B613E7C320188DAC005D6DCD /* Info.plist */,
+			);
+			path = FlowerBucket;
+			sourceTree = "<group>";
+		};
+		B613E7CB20188DAC005D6DCD /* FlowerBucketTests */ = {
+			isa = PBXGroup;
+			children = (
+				B613E7CC20188DAC005D6DCD /* FlowerBucketTests.swift */,
+				B613E7CE20188DAC005D6DCD /* Info.plist */,
+			);
+			path = FlowerBucketTests;
+			sourceTree = "<group>";
+		};
+		B613E7D620188DAC005D6DCD /* FlowerBucketUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B613E7D720188DAC005D6DCD /* FlowerBucketUITests.swift */,
+				B613E7D920188DAC005D6DCD /* Info.plist */,
+			);
+			path = FlowerBucketUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B613E7B320188DAC005D6DCD /* FlowerBucket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B613E7DC20188DAC005D6DCD /* Build configuration list for PBXNativeTarget "FlowerBucket" */;
+			buildPhases = (
+				A95EF0228114DA18BDFE2CA5 /* [CP] Check Pods Manifest.lock */,
+				B613E7B020188DAC005D6DCD /* Sources */,
+				B613E7B120188DAC005D6DCD /* Frameworks */,
+				B613E7B220188DAC005D6DCD /* Resources */,
+				A9F10A93B2D83C4141A33100 /* [CP] Embed Pods Frameworks */,
+				C966693CCE8974C667EA1E9A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlowerBucket;
+			productName = FlowerBucket;
+			productReference = B613E7B420188DAC005D6DCD /* FlowerBucket.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B613E7C720188DAC005D6DCD /* FlowerBucketTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B613E7DF20188DAC005D6DCD /* Build configuration list for PBXNativeTarget "FlowerBucketTests" */;
+			buildPhases = (
+				9E0A584659B862DC6318E4A4 /* [CP] Check Pods Manifest.lock */,
+				B613E7C420188DAC005D6DCD /* Sources */,
+				B613E7C520188DAC005D6DCD /* Frameworks */,
+				B613E7C620188DAC005D6DCD /* Resources */,
+				23CBEDF32177129D6842EAC6 /* [CP] Embed Pods Frameworks */,
+				9B139C59C680EF44BC7A7A7B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B613E7CA20188DAC005D6DCD /* PBXTargetDependency */,
+			);
+			name = FlowerBucketTests;
+			productName = FlowerBucketTests;
+			productReference = B613E7C820188DAC005D6DCD /* FlowerBucketTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B613E7D220188DAC005D6DCD /* FlowerBucketUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B613E7E220188DAC005D6DCD /* Build configuration list for PBXNativeTarget "FlowerBucketUITests" */;
+			buildPhases = (
+				4C5EF175AECE55093D34756B /* [CP] Check Pods Manifest.lock */,
+				B613E7CF20188DAC005D6DCD /* Sources */,
+				B613E7D020188DAC005D6DCD /* Frameworks */,
+				B613E7D120188DAC005D6DCD /* Resources */,
+				7CD1C8AF8531F968BE2FEFF5 /* [CP] Embed Pods Frameworks */,
+				F1C3CD4327EDF759EC15BC11 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B613E7D520188DAC005D6DCD /* PBXTargetDependency */,
+			);
+			name = FlowerBucketUITests;
+			productName = FlowerBucketUITests;
+			productReference = B613E7D320188DAC005D6DCD /* FlowerBucketUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B613E7AC20188DAB005D6DCD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Catalin David";
+				TargetAttributes = {
+					B613E7B320188DAC005D6DCD = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					B613E7C720188DAC005D6DCD = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B613E7B320188DAC005D6DCD;
+					};
+					B613E7D220188DAC005D6DCD = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B613E7B320188DAC005D6DCD;
+					};
+				};
+			};
+			buildConfigurationList = B613E7AF20188DAB005D6DCD /* Build configuration list for PBXProject "FlowerBucket" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B613E7AB20188DAB005D6DCD;
+			productRefGroup = B613E7B520188DAC005D6DCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B613E7B320188DAC005D6DCD /* FlowerBucket */,
+				B613E7C720188DAC005D6DCD /* FlowerBucketTests */,
+				B613E7D220188DAC005D6DCD /* FlowerBucketUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B613E7B220188DAC005D6DCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B613E7C220188DAC005D6DCD /* LaunchScreen.storyboard in Resources */,
+				B613E7BF20188DAC005D6DCD /* Assets.xcassets in Resources */,
+				B613E7BD20188DAC005D6DCD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B613E7C620188DAC005D6DCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B613E7D120188DAC005D6DCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		23CBEDF32177129D6842EAC6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FlowerBucketTests/Pods-FlowerBucketTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C5EF175AECE55093D34756B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlowerBucketUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7CD1C8AF8531F968BE2FEFF5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FlowerBucketUITests/Pods-FlowerBucketUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B139C59C680EF44BC7A7A7B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FlowerBucketTests/Pods-FlowerBucketTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E0A584659B862DC6318E4A4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlowerBucketTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A95EF0228114DA18BDFE2CA5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlowerBucket-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9F10A93B2D83C4141A33100 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FlowerBucket/Pods-FlowerBucket-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FlowerBucket/Pods-FlowerBucket-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C966693CCE8974C667EA1E9A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FlowerBucket/Pods-FlowerBucket-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1C3CD4327EDF759EC15BC11 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FlowerBucketUITests/Pods-FlowerBucketUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B613E7B020188DAC005D6DCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B613E7BA20188DAC005D6DCD /* ViewController.swift in Sources */,
+				B613E7B820188DAC005D6DCD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B613E7C420188DAC005D6DCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B613E7CD20188DAC005D6DCD /* FlowerBucketTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B613E7CF20188DAC005D6DCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B613E7D820188DAC005D6DCD /* FlowerBucketUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B613E7CA20188DAC005D6DCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B613E7B320188DAC005D6DCD /* FlowerBucket */;
+			targetProxy = B613E7C920188DAC005D6DCD /* PBXContainerItemProxy */;
+		};
+		B613E7D520188DAC005D6DCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B613E7B320188DAC005D6DCD /* FlowerBucket */;
+			targetProxy = B613E7D420188DAC005D6DCD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B613E7BB20188DAC005D6DCD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B613E7BC20188DAC005D6DCD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B613E7C020188DAC005D6DCD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B613E7C120188DAC005D6DCD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B613E7DA20188DAC005D6DCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B613E7DB20188DAC005D6DCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B613E7DD20188DAC005D6DCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8032BD3C992A88EEA417EBB9 /* Pods-FlowerBucket.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 872C7TWV9H;
+				INFOPLIST_FILE = FlowerBucket/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cd.FlowerBucket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B613E7DE20188DAC005D6DCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 313FA8DFD2D426305F533145 /* Pods-FlowerBucket.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 872C7TWV9H;
+				INFOPLIST_FILE = FlowerBucket/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cd.FlowerBucket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B613E7E020188DAC005D6DCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3533AA2BBAE717FF498AAFCE /* Pods-FlowerBucketTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FlowerBucketTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cd.FlowerBucketTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlowerBucket.app/FlowerBucket";
+			};
+			name = Debug;
+		};
+		B613E7E120188DAC005D6DCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E6E053BBE849C950C1C7D46 /* Pods-FlowerBucketTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FlowerBucketTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cd.FlowerBucketTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlowerBucket.app/FlowerBucket";
+			};
+			name = Release;
+		};
+		B613E7E320188DAC005D6DCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CA3F4D7E572A08124C441FD /* Pods-FlowerBucketUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FlowerBucketUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cd.FlowerBucketUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlowerBucket;
+			};
+			name = Debug;
+		};
+		B613E7E420188DAC005D6DCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4E7BE06AB25475AD41715A6 /* Pods-FlowerBucketUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FlowerBucketUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cd.FlowerBucketUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlowerBucket;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B613E7AF20188DAB005D6DCD /* Build configuration list for PBXProject "FlowerBucket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B613E7DA20188DAC005D6DCD /* Debug */,
+				B613E7DB20188DAC005D6DCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B613E7DC20188DAC005D6DCD /* Build configuration list for PBXNativeTarget "FlowerBucket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B613E7DD20188DAC005D6DCD /* Debug */,
+				B613E7DE20188DAC005D6DCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B613E7DF20188DAC005D6DCD /* Build configuration list for PBXNativeTarget "FlowerBucketTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B613E7E020188DAC005D6DCD /* Debug */,
+				B613E7E120188DAC005D6DCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B613E7E220188DAC005D6DCD /* Build configuration list for PBXNativeTarget "FlowerBucketUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B613E7E320188DAC005D6DCD /* Debug */,
+				B613E7E420188DAC005D6DCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B613E7AC20188DAB005D6DCD /* Project object */;
+}
