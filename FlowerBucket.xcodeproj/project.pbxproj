@@ -9,12 +9,19 @@
 /* Begin PBXBuildFile section */
 		79BA586D477F4877DB827794 /* Pods_FlowerBucket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C98753527E1933CC9CC8D45 /* Pods_FlowerBucket.framework */; };
 		B613E7B820188DAC005D6DCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B613E7B720188DAC005D6DCD /* AppDelegate.swift */; };
-		B613E7BA20188DAC005D6DCD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B613E7B920188DAC005D6DCD /* ViewController.swift */; };
 		B613E7BD20188DAC005D6DCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B613E7BB20188DAC005D6DCD /* Main.storyboard */; };
 		B613E7BF20188DAC005D6DCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B613E7BE20188DAC005D6DCD /* Assets.xcassets */; };
 		B613E7C220188DAC005D6DCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B613E7C020188DAC005D6DCD /* LaunchScreen.storyboard */; };
 		B613E7CD20188DAC005D6DCD /* FlowerBucketTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B613E7CC20188DAC005D6DCD /* FlowerBucketTests.swift */; };
 		B613E7D820188DAC005D6DCD /* FlowerBucketUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B613E7D720188DAC005D6DCD /* FlowerBucketUITests.swift */; };
+		B64F6E3C2028AA8800616D70 /* OrderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64F6E3B2028AA8800616D70 /* OrderCell.swift */; };
+		B64F6E3E2028BBA700616D70 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64F6E3D2028BBA700616D70 /* DetailViewController.swift */; };
+		B661986D2025E47300782274 /* PresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B661986C2025E47300782274 /* PresenterProtocol.swift */; };
+		B661986F2025E4DB00782274 /* OrderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B661986E2025E4DB00782274 /* OrderListView.swift */; };
+		B66198712025E54D00782274 /* OrderListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66198702025E54D00782274 /* OrderListViewController.swift */; };
+		B67505582025F54B00452DD2 /* OrderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67505572025F54B00452DD2 /* OrderService.swift */; };
+		B675055A2025FD8600452DD2 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67505592025FD8600452DD2 /* Order.swift */; };
+		B675055C2026078B00452DD2 /* OrderPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B675055B2026078B00452DD2 /* OrderPresenter.swift */; };
 		C207F3EDDD8A206C92A496CB /* Pods_FlowerBucketUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 184CCFB1614089F7F1CA57CE /* Pods_FlowerBucketUITests.framework */; };
 		C6F53F6D6E041338139B91E9 /* Pods_FlowerBucketTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6F60FA5C564379FBE04AB15 /* Pods_FlowerBucketTests.framework */; };
 /* End PBXBuildFile section */
@@ -46,7 +53,6 @@
 		8E6E053BBE849C950C1C7D46 /* Pods-FlowerBucketTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlowerBucketTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlowerBucketTests/Pods-FlowerBucketTests.release.xcconfig"; sourceTree = "<group>"; };
 		B613E7B420188DAC005D6DCD /* FlowerBucket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlowerBucket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B613E7B720188DAC005D6DCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B613E7B920188DAC005D6DCD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B613E7BC20188DAC005D6DCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B613E7BE20188DAC005D6DCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B613E7C120188DAC005D6DCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -57,6 +63,14 @@
 		B613E7D320188DAC005D6DCD /* FlowerBucketUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlowerBucketUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B613E7D720188DAC005D6DCD /* FlowerBucketUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerBucketUITests.swift; sourceTree = "<group>"; };
 		B613E7D920188DAC005D6DCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B64F6E3B2028AA8800616D70 /* OrderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderCell.swift; sourceTree = "<group>"; };
+		B64F6E3D2028BBA700616D70 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		B661986C2025E47300782274 /* PresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresenterProtocol.swift; sourceTree = "<group>"; };
+		B661986E2025E4DB00782274 /* OrderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListView.swift; sourceTree = "<group>"; };
+		B66198702025E54D00782274 /* OrderListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListViewController.swift; sourceTree = "<group>"; };
+		B67505572025F54B00452DD2 /* OrderService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderService.swift; sourceTree = "<group>"; };
+		B67505592025FD8600452DD2 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		B675055B2026078B00452DD2 /* OrderPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderPresenter.swift; sourceTree = "<group>"; };
 		C4E7BE06AB25475AD41715A6 /* Pods-FlowerBucketUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlowerBucketUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlowerBucketUITests/Pods-FlowerBucketUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C6F60FA5C564379FBE04AB15 /* Pods_FlowerBucketTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlowerBucketTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -137,8 +151,11 @@
 		B613E7B620188DAC005D6DCD /* FlowerBucket */ = {
 			isa = PBXGroup;
 			children = (
+				B66198692025E44A00782274 /* Presenter */,
+				B66198682025E44300782274 /* View */,
+				B66198672025E42800782274 /* Model */,
+				B66198622025E3DD00782274 /* API */,
 				B613E7B720188DAC005D6DCD /* AppDelegate.swift */,
-				B613E7B920188DAC005D6DCD /* ViewController.swift */,
 				B613E7BB20188DAC005D6DCD /* Main.storyboard */,
 				B613E7BE20188DAC005D6DCD /* Assets.xcassets */,
 				B613E7C020188DAC005D6DCD /* LaunchScreen.storyboard */,
@@ -163,6 +180,58 @@
 				B613E7D920188DAC005D6DCD /* Info.plist */,
 			);
 			path = FlowerBucketUITests;
+			sourceTree = "<group>";
+		};
+		B66198622025E3DD00782274 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				B67505572025F54B00452DD2 /* OrderService.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		B66198672025E42800782274 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B67505592025FD8600452DD2 /* Order.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B66198682025E44300782274 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B661986B2025E45D00782274 /* Controller */,
+				B661986A2025E45500782274 /* View */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B66198692025E44A00782274 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				B661986C2025E47300782274 /* PresenterProtocol.swift */,
+				B675055B2026078B00452DD2 /* OrderPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		B661986A2025E45500782274 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B661986E2025E4DB00782274 /* OrderListView.swift */,
+				B64F6E3B2028AA8800616D70 /* OrderCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B661986B2025E45D00782274 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B66198702025E54D00782274 /* OrderListViewController.swift */,
+				B64F6E3D2028BBA700616D70 /* DetailViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -412,11 +481,13 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-FlowerBucket/Pods-FlowerBucket-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -460,8 +531,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B613E7BA20188DAC005D6DCD /* ViewController.swift in Sources */,
+				B64F6E3E2028BBA700616D70 /* DetailViewController.swift in Sources */,
+				B67505582025F54B00452DD2 /* OrderService.swift in Sources */,
 				B613E7B820188DAC005D6DCD /* AppDelegate.swift in Sources */,
+				B661986F2025E4DB00782274 /* OrderListView.swift in Sources */,
+				B675055C2026078B00452DD2 /* OrderPresenter.swift in Sources */,
+				B661986D2025E47300782274 /* PresenterProtocol.swift in Sources */,
+				B66198712025E54D00782274 /* OrderListViewController.swift in Sources */,
+				B64F6E3C2028AA8800616D70 /* OrderCell.swift in Sources */,
+				B675055A2025FD8600452DD2 /* Order.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

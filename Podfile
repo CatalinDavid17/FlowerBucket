@@ -4,6 +4,7 @@ target 'FlowerBucket' do
   use_frameworks!
 pod 'Alamofire', '4.6.0'
 pod 'MBProgressHUD', '~> 1.0'
+pod 'SwiftyJSON'
 
 # Pods for FlowerBucket
 
